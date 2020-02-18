@@ -1,19 +1,19 @@
 
 /** Background colors**/
 .bg-primary-color {
-    background: #fcd742;
+    background: #ffe900;
 }
 
 .bg-accent-color {
-    background: #C6ED3B;
+    background: #ffe900;
 }
 
 .bg-white-color {
-    background: #FFFFFF;
+    background: #d9e4e3;
 }
 
 .bg-black-color {
-    background: #000000;
+    background: #212322;
 }
 
 .bg-gray-one-color {
@@ -30,19 +30,23 @@
 
 /** Text colors**/
 .primary-color {
-    color: #fcd742;
+    color: #ffe900;
 }
 
 .accent-color {
-    color: #C6ED3B;
+    color: #ffe900;
+}
+
+.secundary.color{
+    color: #bc204b
 }
 
 .white-color {
-    color: #FFFFFF;
+    color: #d9e4e3;
 }
 
 .black-color {
-    color: #000000;
+    color: #212322;
 }
 
 .gray-one-color {
