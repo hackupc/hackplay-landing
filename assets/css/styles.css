@@ -7,14 +7,28 @@ html, body {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3,h4,h5, p, a {
+h1, h2, h3,h4,h5, p {
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: white ;
 }
 
 header {
     display: inline-block;
-    height:100vh;
+    height:96vh;
     position: relative;
+}
+
+.full-width{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    position:relative;
 }
 
 
