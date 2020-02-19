@@ -19,7 +19,7 @@ a {
 
 header {
     display: inline-block;
-    height:96vh;
+    height: 96vh;
     position: relative;
 }
 
@@ -28,7 +28,7 @@ header {
     margin-left: auto;
     padding-left: 0px;
     padding-right: 0px;
-    position:relative;
+    position: relative;
 }
 
 
@@ -178,8 +178,6 @@ button p {
 }
 
 .button-shadow {
-    -webkit-box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
-    -moz-box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
     box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
 }
 
@@ -204,24 +202,23 @@ button p {
 .separator {
     width: 5em;
     height: 1px;
-    margin: 0 auto;
-    margin-top:0.5em;
+    margin: 0.5em auto 0;
 }
 
 .info-container{
-    text-align: justify;
+    text-align: left;
     padding-bottom: 3em; 
 }
 
 .info-container-sub {
     margin: 0 auto;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 4em; 
 }
 
 .title-question{
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5em 0;
 }
 
 /** Section - startups **/
