@@ -38,6 +38,14 @@ nav {
     padding-right: 3em !important;
 }
 
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
 .navbar-brand img {
     padding-right: 0.5em;
 }
@@ -78,9 +86,9 @@ nav {
     font-weight: 600;
     font-size: 3em;
     font-weight:black;
-    color: #fcd742;
+    color: #ffe900;
     text-align: center;
-    text-shadow: 3px 4px black;
+    text-shadow: 0px 3px 8px black;
 }
 
 .subtitle {
@@ -287,6 +295,13 @@ button p {
     padding-bottom: 0.5em;
 }
 
+.date-location {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    text-align: center;
+}
 
 #schedule .section-heading {
     padding-bottom: 4em;
@@ -416,6 +431,10 @@ footer p {
 
     #location .info {
         padding: 2.5em;
+	display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: calc(100% - 4em);
     }
 
     footer .social-icons {
