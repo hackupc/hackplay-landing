@@ -141,7 +141,7 @@ button p {
     border: 0;
     font-weight: 700;
 
-    background-color: #fcd742;
+    background-color: #ffe900;
     color: black;
 
     font-size: large;
@@ -154,7 +154,7 @@ button p {
     font-weight: 700;
 
     background-color: transparent;
-    border: 2px solid #fcd742;
+    border: 2px solid #ffe900;
 
     font-size: large;
 }
@@ -166,7 +166,7 @@ button p {
     font-weight: 600;
 
     background-color: black;
-    color:  #fcd742;
+    color:  #ffe900;
 }
 
 .button-shadow {
@@ -315,7 +315,7 @@ button p {
 }
 
 #location .info {    
-    border: 1px solid #fcd742;
+    border: 1px solid #ffe900;
     padding: 0.75em;
     margin: 0.5em auto;
 }
