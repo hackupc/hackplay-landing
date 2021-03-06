@@ -205,7 +205,8 @@ button p {
 }
 
 .section-round {
-    font-size:  2em;
+    font-size:  1.8em;
+    margin-left: 0.5em;
     font-weight: 600;
 }
 
